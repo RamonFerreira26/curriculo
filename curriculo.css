@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', serif;
+  color: #4a4a4a;
+}
+
+body {
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+ 
+.curriculo-pagina {
+  width: 850px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 260px 1fr; /* Coluna esquerda rosada e direita branca */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+ 
+.coluna-esquerda-rosada {
+  background-color: #f0e6e0;
+  padding: 30px 20px;
+}
+
+.foto-container {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.foto-container img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+.perfil-contato h1 {
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #222;
+  margin-bottom: 4px;
+}
+
+.cargo {
+  font-style: italic;
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.dados-contato p {
+  font-size: 11px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.espaco-contato {
+  margin-top: 15px;
+}
+
+
+.coluna-direita-branca {
+  padding: 30px 35px;
+}
+
+.secao {
+  margin-bottom: 25px;
+}
+
+.resumo-texto {
+  font-size: 12px;
+  font-style: italic;
+  line-height: 1.5;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.titulo-secao {
+  font-size: 12px;
+  letter-spacing: 2px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 3px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.lista-simples {
+  list-style: none;
+}
+
+.lista-simples li {
+  font-size: 11px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.item-bloco {
+  margin-bottom: 30px;
+}
+
+.linha-topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.linha-topo h3 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.data {
+  font-size: 11px;
+  font-style: italic;
+  color: #777;
+}
+
+.subtitulo {
+  font-size: 11px;
+  color: #666;
+  margin-bottom: 6px;
+}
+
+.lista-pontos {
+  padding-left: 15px;
+}
+
+.lista-pontos li, .detalhe {
+  font-size: 11px;
+  color: #666;
+  line-height: 1.4;
+  margin-bottom: 4px;
+}
